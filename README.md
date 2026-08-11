@@ -13,7 +13,7 @@ Official website for the PKZ (Pakistan Zindabad) token
 
 ---
 
-## 🎓 Our Ecosystem
+## 🎓 Future of Our Ecosystem 
 
 - 🏛 **Pakistan Zindabad Trust** – Charitable trust for social good
 - 🌐 **University of Mentors** – A global hybrid model education system
