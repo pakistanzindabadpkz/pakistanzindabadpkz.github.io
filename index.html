@@ -1,156 +1,537 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="description" content="Pakistan Zindabad (PKZ) is a Binance Smart Chain token supporting charity, education, and blockchain development through a transparent and decentralized ecosystem.">
-  <meta name="keywords" content="PKZ, Pakistan Zindabad, BSC Token, charity token, blockchain Pakistan, DeFi token, transparency, education">
+    <meta name="description" content="Pakistan Zindabad (PKZ) — a community-driven digital asset built on BNB Smart Chain.">
+    <meta name="keywords" content="Pakistan Zindabad, PKZ, PKZ Token, BNB Smart Chain, cryptocurrency">
 
-  <meta property="og:title" content="Pakistan Zindabad (PKZ)">
-  <meta property="og:description" content="Charity-driven BSC token funding education, justice & blockchain in Pakistan.">
-  <meta property="og:image" content="logo.png">
-  <meta property="og:url" content="https://pakistanzindabadpkz.github.io">
+    <title>Pakistan Zindabad | PKZ</title>
 
-  <meta name="twitter:card" content="summary_large_image">
-
-  <title>Pakistan Zindabad Token (PKZ)</title>
-
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <header>
-    <img src="logo.svg" alt="PKZ Logo" class="logo">
+<!-- ================= NAVIGATION ================= -->
+
+<nav class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="brand">
+            <img src="logo.svg" alt="Pakistan Zindabad PKZ Logo">
+            <span>PKZ</span>
+        </a>
+
+        <div class="nav-links">
+
+            <a href="#about">About</a>
+            <a href="#token">Token</a>
+            <a href="#ecosystem">Ecosystem</a>
+            <a href="#tokenomics">Tokenomics</a>
+            <a href="whitepaper.pdf" target="_blank">Whitepaper</a>
+
+            <a
+                class="nav-buy"
+                href="https://pancakeswap.finance/swap?outputCurrency=0xDD7F40d4E60E2510c81295B6e59D64D0Ace1F8CC"
+                target="_blank"
+                rel="noopener noreferrer">
+                BUY PKZ
+            </a>
+
+        </div>
+
+        <button class="mobile-menu" onclick="toggleMenu()">
+            ☰
+        </button>
+
+    </div>
+
+</nav>
 
 
-<h1>Pakistan Zindabad (PKZ)</h1>
+<!-- ================= HERO ================= -->
 
-<p>Transparency, Justice & Education powered by Blockchain</p>
+<section id="home" class="hero">
 
-<a
-  class="cta"
-  href="https://pancakeswap.finance/swap?outputCurrency=0xDD7F40d4E60E2510c81295B6e59D64D0Ace1F8CC"
-  target="_blank"
-  rel="noopener noreferrer">
-  Buy PKZ on PancakeSwap
-</a>
+    <div class="hero-content">
 
+        <div class="hero-badge">
+            BNB SMART CHAIN • PKZ
+        </div>
 
-  </header>
+        <h1>
+            PAKISTAN<br>
+            <span>ZINDABAD</span>
+        </h1>
 
-  <main>
+        <p class="hero-subtitle">
+            A community-driven digital asset built around
+            transparency, education, charity and blockchain innovation.
+        </p>
 
+        <div class="hero-buttons">
 
-<section>
-  <h2>About PKZ</h2>
+            <a
+                class="primary-button"
+                href="https://pancakeswap.finance/swap?outputCurrency=0xDD7F40d4E60E2510c81295B6e59D64D0Ace1F8CC"
+                target="_blank"
+                rel="noopener noreferrer">
+                BUY PKZ
+            </a>
 
-  <p>
-    Pakistan Zindabad (PKZ) is a Binance Smart Chain token created to support
-    <strong>charitable efforts</strong>, enhance
-    <strong>educational opportunities</strong>, and build
-    <strong>blockchain infrastructure</strong> across Pakistan.
-    Through a transparent, community-driven model, PKZ empowers long-term
-    national growth.
-  </p>
-</section>
+            <a class="secondary-button" href="#about">
+                EXPLORE PKZ ↓
+            </a>
 
+        </div>
 
-<section>
-  <h2>Tokenomics</h2>
-
-  <ul>
-    <li>Total Supply: 1,000,000,000 PKZ</li>
-    <li>Anti-Whale Limit: 20% max per wallet</li>
-    <li>Charity + Marketing Fee: 0.01%</li>
-  </ul>
-</section>
+    </div>
 
 
-<section>
-  <h2>Contract Address</h2>
+    <div class="hero-logo">
 
-  <code id="contractAddress">
-    0xDD7F40d4E60E2510c81295B6e59D64D0Ace1F8CC
-  </code>
+        <div class="logo-circle">
 
-  <button onclick="copyContract()">📋 Copy</button>
+            <img src="logo.svg" alt="PKZ">
 
-  <p>
-    <a
-      href="https://bscscan.com/token/0xDD7F40d4E60E2510c81295B6e59D64D0Ace1F8CC"
-      target="_blank"
-      rel="noopener noreferrer">
-      🔎 View on BscScan
-    </a>
-  </p>
-</section>
+        </div>
 
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
 
-<section>
-  <h2>Whitepaper</h2>
-
-  <a
-    href="whitepaper.pdf"
-    target="_blank"
-    rel="noopener noreferrer">
-    📄 Download Whitepaper
-  </a>
-</section>
-
-
-<section>
-  <h2>Connect with Us</h2>
-
-  <p>
-    Email:
-    <strong>infopakistanzindabadpkz@gmail.com</strong>
-  </p>
-
-  <p>
-    Telegram:
-    <a
-      href="https://t.me/infopakistanzindabadpkz"
-      target="_blank"
-      rel="noopener noreferrer">
-      @infopakistanzindabadpkz
-    </a>
-  </p>
-
-  <p>
-    X.com:
-    <a
-      href="https://x.com/pakzindpkz"
-      target="_blank"
-      rel="noopener noreferrer">
-      @pakzindpkz
-    </a>
-  </p>
-</section>
-
-
-<section class="bottom-cta">
-
-  <a
-    class="cta"
-    href="https://pancakeswap.finance/swap?outputCurrency=0xDD7F40d4E60E2510c81295B6e59D64D0Ace1F8CC"
-    target="_blank"
-    rel="noopener noreferrer">
-    Buy PKZ Now
-  </a>
+    </div>
 
 </section>
 
 
-  </main>
+<!-- ================= TICKER ================= -->
 
-  <footer>
-    <p>© 2025 Pakistan Zindabad (PKZ). All rights reserved.</p>
-  </footer>
+<div class="ticker">
 
-  <script src="script.js"></script>
+    <div class="ticker-track">
+
+        <span>PAKISTAN ZINDABAD</span>
+        <span>◆</span>
+        <span>PKZ TOKEN</span>
+        <span>◆</span>
+        <span>BNB SMART CHAIN</span>
+        <span>◆</span>
+        <span>COMMUNITY POWERED</span>
+        <span>◆</span>
+        <span>PAKISTAN ZINDABAD</span>
+        <span>◆</span>
+        <span>PKZ TOKEN</span>
+        <span>◆</span>
+        <span>BNB SMART CHAIN</span>
+        <span>◆</span>
+
+    </div>
+
+</div>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section about-section">
+
+    <div class="section-label">
+        01 — ABOUT PKZ
+    </div>
+
+    <div class="about-grid">
+
+        <div>
+
+            <h2>
+                BUILT FOR A
+                <span>MISSION.</span>
+            </h2>
+
+        </div>
+
+        <div class="about-text">
+
+            <p>
+                Pakistan Zindabad (PKZ) is a community-driven token
+                deployed on BNB Smart Chain.
+            </p>
+
+            <p>
+                The project aims to support charitable initiatives,
+                educational opportunities and blockchain development
+                through a transparent and accessible ecosystem.
+            </p>
+
+            <p>
+                PKZ is designed to bring together a community that
+                believes technology can contribute to long-term
+                positive change.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TOKEN STATS ================= -->
+
+<section id="token" class="stats-section">
+
+    <div class="section">
+
+        <div class="section-label">
+            02 — PKZ TOKEN
+        </div>
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+
+                <span class="stat-number">1B</span>
+                <span class="stat-title">TOTAL SUPPLY</span>
+
+            </div>
+
+            <div class="stat-card">
+
+                <span class="stat-number" id="pkzPrice">
+                    -- 
+                </span>
+
+                <span class="stat-title">
+                    PKZ / USDT
+                </span>
+
+            </div>
+
+            <div class="stat-card">
+
+                <span class="stat-number">BSC</span>
+
+                <span class="stat-title">
+                    NETWORK
+                </span>
+
+            </div>
+
+            <div class="stat-card">
+
+                <span class="stat-number">PKZ</span>
+
+                <span class="stat-title">
+                    SYMBOL
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTRACT ================= -->
+
+<section class="contract-section">
+
+    <div class="section">
+
+        <div class="contract-box">
+
+            <div>
+
+                <span class="contract-label">
+                    PKZ CONTRACT ADDRESS
+                </span>
+
+                <code id="contractAddress">
+                    0xDD7F40d4E60E2510c81295B6e59D64D0Ace1F8CC
+                </code>
+
+            </div>
+
+            <button onclick="copyContract()">
+                COPY ADDRESS
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ECOSYSTEM ================= -->
+
+<section id="ecosystem" class="section ecosystem-section">
+
+    <div class="section-label">
+        03 — ECOSYSTEM
+    </div>
+
+    <h2>
+        ONE TOKEN.<br>
+        <span>ONE COMMUNITY.</span>
+    </h2>
+
+
+    <div class="ecosystem-grid">
+
+        <div class="eco-card">
+
+            <div class="eco-number">01</div>
+
+            <h3>CHARITY</h3>
+
+            <p>
+                Supporting meaningful charitable initiatives
+                through transparent community participation.
+            </p>
+
+        </div>
+
+
+        <div class="eco-card">
+
+            <div class="eco-number">02</div>
+
+            <h3>EDUCATION</h3>
+
+            <p>
+                Promoting educational opportunities and
+                knowledge through community-driven initiatives.
+            </p>
+
+        </div>
+
+
+        <div class="eco-card">
+
+            <div class="eco-number">03</div>
+
+            <h3>BLOCKCHAIN</h3>
+
+            <p>
+                Building awareness and opportunities around
+                blockchain technology and digital assets.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TOKENOMICS ================= -->
+
+<section id="tokenomics" class="tokenomics-section">
+
+    <div class="section">
+
+        <div class="section-label">
+            04 — TOKENOMICS
+        </div>
+
+        <h2>
+            THE PKZ
+            <span>SUPPLY.</span>
+        </h2>
+
+
+        <div class="tokenomics-grid">
+
+            <div class="token-card">
+
+                <span>01</span>
+
+                <h3>TOTAL SUPPLY</h3>
+
+                <strong>
+                    1,000,000,000
+                </strong>
+
+                <p>
+                    PKZ tokens
+                </p>
+
+            </div>
+
+
+            <div class="token-card">
+
+                <span>02</span>
+
+                <h3>NETWORK</h3>
+
+                <strong>
+                    BNB
+                </strong>
+
+                <p>
+                    Smart Chain
+                </p>
+
+            </div>
+
+
+            <div class="token-card">
+
+                <span>03</span>
+
+                <h3>TICKER</h3>
+
+                <strong>
+                    PKZ
+                </strong>
+
+                <p>
+                    Pakistan Zindabad
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WHITEPAPER ================= -->
+
+<section class="whitepaper-section">
+
+    <div class="section whitepaper-box">
+
+        <div>
+
+            <div class="section-label">
+                READ THE PROJECT
+            </div>
+
+            <h2>
+                DISCOVER THE
+                <span>WHITEPAPER.</span>
+            </h2>
+
+        </div>
+
+        <a
+            class="primary-button"
+            href="whitepaper.pdf"
+            target="_blank">
+            READ WHITEPAPER →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= COMMUNITY ================= -->
+
+<section class="community-section">
+
+    <div class="community-content">
+
+        <div class="section-label">
+            05 — COMMUNITY
+        </div>
+
+        <h2>
+            JOIN THE
+            <span>PKZ COMMUNITY.</span>
+        </h2>
+
+        <p>
+            Follow the project, stay informed and become part
+            of the Pakistan Zindabad community.
+        </p>
+
+
+        <div class="social-buttons">
+
+            <a
+                href="https://t.me/infopakistanzindabadpkz"
+                target="_blank">
+                TELEGRAM
+            </a>
+
+            <a
+                href="https://x.com/pakzindpkz"
+                target="_blank">
+                X / TWITTER
+            </a>
+
+            <a
+                href="mailto:infopakistanzindabadpkz@gmail.com">
+                EMAIL
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+
+            <img src="logo.svg" alt="PKZ">
+
+            <h3>PAKISTAN ZINDABAD</h3>
+
+            <p>
+                Community. Transparency. Progress.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#about">About</a>
+            <a href="#token">Token</a>
+            <a href="#ecosystem">Ecosystem</a>
+            <a href="#tokenomics">Tokenomics</a>
+            <a href="whitepaper.pdf" target="_blank">Whitepaper</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 Pakistan Zindabad (PKZ)
+        </span>
+
+        <a
+            href="https://bscscan.com/token/0xDD7F40d4E60E2510c81295B6e59D64D0Ace1F8CC"
+            target="_blank">
+            VIEW CONTRACT ↗
+        </a>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
